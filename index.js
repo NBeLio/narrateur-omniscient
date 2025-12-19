@@ -13,7 +13,7 @@ const client = new Client({
 client.once("ready", async () => {
   console.log(`✅ Bot connecté en tant que ${client.user.tag}`);
 
-  // Enregistrement de la commande slash
+  // ✅ Enregistrement de la commande une fois que le bot est prêt
   const commands = [
     new SlashCommandBuilder()
       .setName("indice_melanie")
